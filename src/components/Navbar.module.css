@@ -1,0 +1,60 @@
+.navbarBg {
+  background-color: rgba(233, 233, 233, 0.445);
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  padding-left: 5em;
+  padding-right: 5em;
+  -webkit-box-shadow: 0px 11px 4px 0px rgba(0, 0, 0, 0.021);
+  box-shadow: 0px 11px 4px 0px rgba(0, 0, 0, 0.021);
+
+
+}
+
+.cart {
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2em;
+  padding-right: 2em;
+  background-color: rgba(240, 239, 239, 0.267);
+  border-radius: 50px;
+  width: 20rem;
+  min-width: 20em;
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.05);
+  z-index: 1;
+  cursor: pointer;
+
+}
+
+
+.bubble {
+  justify-content: center;
+  text-align: center;
+  background: rgba(206, 113, 144, 0.192);
+  border-radius: 50px;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  width: 4rem;
+
+}
+
+.cartImage {
+  height: 2.5em;
+  align-self: center;
+}
+
+.navbarBg h1 {
+  color: rgb(253, 253, 253);
+  min-width: 10em;
+}
+
+.navbarBg h2 {
+  color: rgb(253, 253, 253);
+}
+.navbarBg p {
+  color: rgb(253, 253, 253);
+}
+
+

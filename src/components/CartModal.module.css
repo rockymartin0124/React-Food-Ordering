@@ -1,0 +1,122 @@
+
+
+.modalGrid {
+  /* background-color: rgba(255, 255, 255, 0.014); */
+  position: fixed;
+  top: 0;
+  border-radius: 5px;
+  height: auto;
+  width: 100%;
+  min-width: 60em;
+  display: grid;
+  grid-template-columns: 5em 30em auto 30em 9em;
+  grid-template-rows: 6em 20em auto auto;
+  padding: 10px;
+  z-index: 3;
+}
+
+.modal {
+  height: auto;
+z-index: 3;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.651);
+  border-radius: 1em;
+  /* aukstis */
+  grid-row-start: 2;
+  grid-row-end: 4;
+  /* plotis */
+  grid-column-start: 4;
+  grid-column-end: 5;
+  text-align: center;
+  padding-bottom: 2em;
+  padding-top: 1em;
+
+  animation: fadeIn 0.4s;
+  -webkit-animation: fadeIn 0.4s;
+  -moz-animation: fadeIn 0.4s;
+  -o-animation: fadeIn 0.4s;
+  -ms-animation: fadeIn 0.4s;
+
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
+.totalDiv {
+  /* background-color: violet; */
+  /* position: fixed; */
+  /* top: 41em;
+    right: 10em; */
+  margin-left: 20em;
+  color: rgb(255, 255, 255);
+  grid-row-start: 4;
+  grid-row-end: 5;
+  /* plotis */
+  grid-column-start: 4;
+  grid-column-end: 4;
+  text-align: center;
+}
+
+.totalDiv h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+}
+
+.modal h1 {
+  color: rgb(252, 252, 252);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+.modal h4 {
+  color: rgb(255, 255, 255);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 200;
+  padding-top: 0em;
+  margin-top: 0em;
+  font-size: large;
+}
+
+.modal p {
+  color: rgb(0, 0, 0);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  font-size: small;
+}
+
+.closeButton {
+  background-color: rgba(255, 255, 255, 0.315);
+  border-radius: 100px;
+  width: 3.2em;
+  grid-column-start: 5;
+  grid-column-end: 5;
+  margin-left: -0.3em;
+  margin-bottom: -0.5em;
+  color: black;
+}
+.closeIcon {
+  height: 0.6em;
+}

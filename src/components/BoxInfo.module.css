@@ -1,0 +1,21 @@
+.boxIn {
+    text-align: center;
+    align-self: center;
+  margin: 2em;
+}
+
+.boxIn h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 1.6em;
+    color: rgb(107, 107, 107);
+  
+    
+}
+
+.boxIn p {
+    margin-top: 2em;
+    font-size: medium;
+    color: rgb(124, 88, 116);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
